@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kill Slime!</title>
+
+  <style>
+    body {
+      background: #333;
+      background-image: url('img/bluealiens.jpg');
+    }
+    #glasspane {
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      padding: 0px 15px 0px 15px;
+      background: rgba(51, 51, 51, .6);
+      text-align: center;
+    }
+    #glasspane p {
+      color: rgba(255,255,255,.75);
+    }
+    #canvas {
+      /*background: #CC7;*/
+      margin: 10px;
+    }
+  </style>
+
+</head>
+<body>
+  <div id='glasspane'>
+    <p id='readout'>(&nbsp;&nbsp;x&nbsp;&nbsp;, &nbsp;&nbsp;y&nbsp;&nbsp;)</p>
+  </div>
+  <canvas id='canvas' width="1000" height="650">Canvas not supported.</canvas>
+  <script src="game.js"></script>
+</body>
+</html>
